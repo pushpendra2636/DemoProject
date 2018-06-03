@@ -1,0 +1,8 @@
+.cNav li{
+  padding: 0px 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+cNav li a:active{
+  color: blueviolet;
+}

@@ -1,0 +1,13 @@
+.rm{
+  padding: 0px;
+}
+.fs{
+  height: 160px;
+
+}
+.catMinImg{
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+    min-height: 158px;
+}

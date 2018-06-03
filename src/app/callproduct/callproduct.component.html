@@ -1,0 +1,16 @@
+<div class="row pt-5 ">
+   <div class=" col-xl-4 border m-0 p-0 text-center" *ngFor="let product of products">
+        <div class="card-header white-text bg-dark text-uppercase">
+          {{product.title}}
+       </div>
+        <div class="card-body">
+        <h4 class="card-title text-uppercase"><b>{{product.title2}}</b></h4>
+        <p class="card-text">{{product.summary}}</p>
+
+        <button type="button" class="btn btn-dark" (click)="clickMe()">{{product.button}}</button>
+    </div>
+    <div class="card-footer text-muted bg-dark text-capitalize">
+        <p class="mb-0  white-text">{{product.offer}} days ago</p>
+    </div>
+   </div>
+</div>

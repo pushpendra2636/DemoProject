@@ -1,0 +1,25 @@
+.minH{
+ height: 279px;
+}
+.offer img{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    max-width: 24%;
+    top: 19px;
+    transform: rotate(-40deg);
+    margin-left: 5px;
+
+}
+.rpS{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.dealDay{
+   background: url(./images/sliderImg/slidef3.jpg);
+    height: 20em;
+    width: 106%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
